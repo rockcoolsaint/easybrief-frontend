@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-//const url = 'http://localhost:5000/posts';
-const url = process.env.NODE_ENV === 'development' ? "http://localhost:5000" : "https://memories-server.herokuapp.com";
+const url = "http://localhost:5000";
 
 const API = axios.create({ baseURL: url});
 
